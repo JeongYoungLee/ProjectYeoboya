@@ -12,6 +12,8 @@ app.secret_key = "vis"
 
 @app.route('/')
 def main():
+    print(1111)
     return render_template('index.html')
-#if __name__ == '__main__':
-#    app.run(host='127.0.0.1', port=3000)
+if __name__ == '__main__':
+    #app.run(host='127.0.0.1', port=3000)
+    app.run()
